@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
   }
   
@@ -31,7 +31,7 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #505050;
     color: white;
   }
   
@@ -61,4 +61,12 @@ body {
   .header {
     text-align: center;
     margin-bottom: 0px;
+  }
+
+  .notification {
+    visibility: hidden;
+  }
+
+  .show {
+    visibility: visible;
   }
