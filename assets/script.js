@@ -27,8 +27,7 @@ $(document).ready(function() {
     // past, present, and future classes? How can Day.js be used to get the
     // current hour in 24-hour time?
     function changeColor() {
-        // let currentHour = dayjs().format('HH'); // e.g. 9 AM
-        let currentHour = '11';
+        let currentHour = dayjs().format('HH'); // e.g. 9 AM
 
         let timeBlockArray = [
             $('#hour-9'), 
