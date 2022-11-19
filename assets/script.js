@@ -28,7 +28,7 @@ $(document).ready(function() {
     // current hour in 24-hour time?
     function changeColor() {
         // let currentHour = dayjs().format('HH'); // e.g. 9 AM
-        let currentHour = '18'
+        let currentHour = '11';
 
         let timeBlockArray = [
             $('#hour-9'), 
